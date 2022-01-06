@@ -1,0 +1,47 @@
+@startgantt
+Project starts 2022-1-6
+
+'today
+2022/01/6 is colored in salmon
+
+'feriados
+'2022/04/15 is colored in lightblue
+'2022/04/21 is closed
+'2022/05/01 is closed
+
+
+--posts--
+'Pesquisar a mulher data de post 3-março pr 24-fev
+[mulher na engenharia] starts 2022-1-6 and ends 2022-2-24
+note bottom
+pesquisar mulher importante na engenharia
+data do post 3-março
+data do pr 24-fev
+end note
+
+--miudezas--
+
+[propósito] starts 2022-1-6 and ends 2022-1-7
+
+[turtlebot] starts 2022-1-10 and ends 2022-2-28
+note bottom
+finalizar repositório geral
+end note
+[sota] starts 2022-1-10 and ends 2022-2-28
+note bottom
+esperar primeiro review de marco
+end note
+
+--doe--
+[DOE (manipuladores ou mais)] starts 2022-1-10 and ends 2022-2-28
+
+--manipuladores (open man. pro and gero)--
+[manipuladores] starts 2022-1-10 and ends 2022-2-28
+
+--warthog--
+[warthog bom mission] starts 2022-1-10 and ends 2022-2-28
+
+--moco (4 meses)--
+[moco general] starts 2022-03-1
+
+@endgantt
