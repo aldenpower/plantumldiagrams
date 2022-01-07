@@ -1,47 +1,81 @@
 @startgantt
 Project starts 2022-1-6
 
+<style>
+ganttDiagram {
+  task {
+    BackGroundColor GreenYellow
+    LineColor Green 
+    unstarted {
+      BackGroundColor Fuchsia 
+      LineColor FireBrick
+    }
+  }
+}
+</style>
+
+
 'today
-2022/01/6 is colored in salmon
+2022/01/7 is colored in grey
 
 'feriados
 '2022/04/15 is colored in lightblue
 '2022/04/21 is closed
 '2022/05/01 is closed
 
-
---posts--
-'Pesquisar a mulher data de post 3-março pr 24-fev
-[mulher na engenharia] starts 2022-1-6 and ends 2022-2-24
-note bottom
-pesquisar mulher importante na engenharia
-data do post 3-março
-data do pr 24-fev
-end note
-
---miudezas--
-
-[propósito] starts 2022-1-6 and ends 2022-1-7
-
-[turtlebot] starts 2022-1-10 and ends 2022-2-28
+--inacabados--
+[turtlebot] starts 2022-1-10 and ends 2022-1-20
 note bottom
 finalizar repositório geral
 end note
+
 [sota] starts 2022-1-10 and ends 2022-2-28
 note bottom
 esperar primeiro review de marco
 end note
 
---doe--
-[DOE (manipuladores ou mais)] starts 2022-1-10 and ends 2022-2-28
+--posts--
+'Pesquisar a mulher data de post 3-março pr 24-fev
+
+[Post Edit Clark] starts 2022-1-6 and ends 2022-2-24
+[Post Edit Clark] is 4% complete
+
+note bottom
+Escolher a personlidade para o post
+Fazer post sobre Edith Clarke
+Data do post 3-março
+Data do pr 24-fev
+end note
+
+
+
+--miudezas--
+[propósito] starts 2022-1-6 and ends 2022-1-7
+[Quaternion AHP MASP + 8D] starts 2022-1-17 and ends 2022-1-17
+[Livro: economia da desigualdade 1] starts 2022-1-21
+[Livro: economia da desigualdade 2] starts 2022-1-28
+[Quaternion AHP MASP + 8D] starts 2022-1-17 and ends 2022-1-24
+
+
+--estatistica DOE--
+[Estatistica para pesquisa] starts 2022-1-10 and ends 2022-1-17
 
 --manipuladores (open man. pro and gero)--
-[manipuladores] starts 2022-1-10 and ends 2022-2-28
+[manipuladores] starts 2022-1-24 and ends 2022-1-31
 
 --warthog--
-[warthog bom mission] starts 2022-1-10 and ends 2022-2-28
+[warthog bomb mission] starts 2022-1-31 and ends 2022-2-28
 
 --moco (4 meses)--
 [moco general] starts 2022-03-1
+
+
+'completion
+[turtlebot] is 0% complete
+[sota] is 0% complete
+[manipuladores] is 0% complete
+[warthog bomb mission] is 0% complete
+[Quaternion AHP MASP + 8D] is 0% complete
+[Estatistica para pesquisa] is 0% complete
 
 @endgantt
