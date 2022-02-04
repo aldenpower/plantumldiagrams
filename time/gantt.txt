@@ -1,22 +1,31 @@
 @startgantt
-Project starts 2022-1-6
 
 <style>
 ganttDiagram {
   task {
     BackGroundColor GreenYellow
-    LineColor Green 
+    LineColor Green
     unstarted {
       BackGroundColor Fuchsia 
       LineColor FireBrick
     }
   }
+  note{
+    FontColor Red
+    LineColor Black
+    BackGroundColor Yellow
+  }
 }
 </style>
 
+'printscale (daily, weekly, monthly, quarterly, yearly) zoom (2)
+printscale daily zoom 1
+
+'start date
+Project starts 2022-1-6
 
 'today
-2022/01/11 is colored in grey
+2022/01/19 is colored in grey
 
 'feriados
 '2022/04/15 is colored in lightblue
@@ -24,7 +33,7 @@ ganttDiagram {
 '2022/05/01 is closed
 
 --inacabados--
-[turtlebot] starts 2022-1-10 and ends 2022-1-17
+[turtlebot] as [ttb] starts 2022-1-10 and ends 2022-1-25
 note bottom
 finalizar repositório geral
 end note
@@ -71,11 +80,21 @@ end note
 
 
 'completion
-[turtlebot] is 25% complete
+[ttb] is 35% complete
 [sota] is 0% complete
 [manipuladores] is 0% complete
 [warthog bomb mission] is 0% complete
 [Quaternion AHP MASP + 8D] is 0% complete
-[Estatistica para pesquisa] is 20% complete
+[Estatistica para pesquisa] is 76% complete
+
+'links
+'[ttb] links to [[https://trello.com/c/izSVQrqj]]
+
+'resources
+'[ttb] on {Anderson} {Seixas} lasts 10 days
+
+'hide footbox
+
+
 
 @endgantt
