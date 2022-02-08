@@ -1,0 +1,51 @@
+@startyaml
+<style>
+yamlDiagram {
+    highlight {
+      BackGroundColor red
+      FontColor white
+      FontStyle italic
+    }
+}
+</style>
+'#highlight "french-hens"
+'#highlight "xmas-fifth-day" / "partridges"
+pkg:
+    create:
+    
+        - --h, --help            show this help message and exit
+        - --package-format {2,3}, --package_format {2,3}
+        - --description DESCRIPTION
+        - --license LICENSE     The license attached to this package
+        - --destination-directory DESTINATION_DIRECTORY
+        - --build-type {cmake,ament_cmake,ament_python}
+        - --dependencies DEPENDENCIES [DEPENDENCIES ...]
+        - --maintainer-email MAINTAINER_EMAIL
+        - --maintainer-name MAINTAINER_NAME
+        - --node-name NODE_NAME
+        - --library-name LIBRARY_NAME
+    executables:
+        -h, --help    show this help message and exit
+        --full-path   Show full path of each executable
+    lists:
+    prefix:
+    xml:
+action:
+bag:        
+component:  
+daemon:     
+doctor:    
+interface:  
+launch: 
+lifecycle: 
+multicast: 
+node: 
+param:      
+pkg:     
+run:       
+security:   
+service:  
+topic:   
+wtf: aas     
+
+@endyaml
