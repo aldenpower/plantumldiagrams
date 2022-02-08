@@ -25,7 +25,7 @@ printscale daily zoom 1
 Project starts 2022-1-6
 
 'today
-2022/01/19 is colored in grey
+2022/02/09 is colored in grey
 
 'feriados
 '2022/04/15 is colored in lightblue
@@ -33,7 +33,7 @@ Project starts 2022-1-6
 '2022/05/01 is closed
 
 --inacabados--
-[turtlebot] as [ttb] starts 2022-1-10 and ends 2022-1-25
+[turtlebot] as [ttb] starts 2022-1-10 and ends 2022-2-11
 note bottom
 finalizar repositório geral
 end note
@@ -42,6 +42,9 @@ end note
 note bottom
 esperar primeiro review de marco
 end note
+
+--portfolio--
+[portfolio] as [pt] starts 2022-2-8 and ends 2022-2-18
 
 --posts--
 'Pesquisar a mulher data de post 3-março pr 24-fev
@@ -71,6 +74,7 @@ end note
 
 --manipuladores (open man. pro and gero)--
 [manipuladores] starts 2022-1-24 and ends 2022-1-31
+[install tutorial moveit2] starts 2022-2-7 and ends 2022-2-9
 
 --warthog--
 [warthog bomb mission] starts 2022-1-31 and ends 2022-2-28
@@ -86,6 +90,7 @@ end note
 [warthog bomb mission] is 0% complete
 [Quaternion AHP MASP + 8D] is 0% complete
 [Estatistica para pesquisa] is 76% complete
+[pt] is 2% complete
 
 'links
 '[ttb] links to [[https://trello.com/c/izSVQrqj]]
