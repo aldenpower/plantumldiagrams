@@ -47,6 +47,8 @@ wbsDiagram {
 
 * Open manipulator pro
 ** Conceptual
+*** Selection
+****_ PBS
 
 *** Understanding
 ****_ Customer requirements
@@ -54,8 +56,7 @@ wbsDiagram {
 ****_ WBS
 ****_ General architecture
 
-** Selection
-***_ PBS
+
 
 ** Design
 *** Definition
