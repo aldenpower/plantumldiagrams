@@ -1,0 +1,77 @@
+@startwbs
+<style>
+wbsDiagram {
+  // all lines (meaning connector and borders, there are no other lines in WBS) are black by default
+  Linecolor black
+  arrow {
+    // note that connector are actually "arrow" even if they don't look like as arrow
+    // This is to be consistent with other UML diagrams. Not 100% sure that it's a good idea
+    // So now connector are blue
+    LineColor blue
+  }
+  :depth(0) {
+      // will target root node
+      BackgroundColor White
+      RoundCorner 10
+      LineColor red
+      // Because we are targetting depth(0) for everything, border and connector for level 0 will be red
+  }
+  arrow {
+    :depth(2) {
+      // Targetting only connector between Mexico-Chihuahua and USA-Texas
+      LineColor blue
+      LineStyle 4
+      LineThickness .5
+    }
+  }
+
+  node {
+    :depth(1) {
+      BackgroundColor White
+    }
+
+  node {
+    :depth(2) {
+      LineStyle 2
+      LineThickness 2.5
+      BackgroundColor White
+    }
+  }
+  boxless {
+    // will target boxless node with '_'
+    FontColor blue
+  }  
+}
+</style>
+
+
+* Open manipulator pro
+** Conceptual
+
+*** Understanding
+****_ Customer requirements
+****_ Verify documentation
+****_ WBS
+****_ General architecture
+
+** Selection
+***_ PBS
+
+** Design
+*** Definition
+****_ Functionality especification
+
+** Integration&tests
+***_ Motor test
+***_ Camera test
+***_ Realize tutorial (real)
+***_ Implement functionalities
+***_ Test manipulation system
+
+** Simulation
+***_ Do simulation
+
+** Conclusion
+***_ Final report
+
+@endwbs
