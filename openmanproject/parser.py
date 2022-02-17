@@ -32,7 +32,8 @@ for i, j in zip(percent, duration):
 
 total_project_days = sum(duration)
 total_project_complete_days = sum(complete)
-
 percent_complete = total_project_complete_days * 100 / total_project_days
-print(percent_complete)
-print(sum(duration))
+
+print('total project days > ', total_project_days)
+print('total project days complete> ', total_project_complete_days)
+print('total percent complete', round(percent_complete, 2))
