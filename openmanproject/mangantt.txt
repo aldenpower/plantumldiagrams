@@ -35,15 +35,11 @@ Project starts 2022-2-14
 --Conceptual--
 [verificar documentacao] as [vd] lasts 5 days
 [customer requirements] as [cr] lasts 5 days
-
 [general architecture] as [ga] lasts 5 days
 [WBS] lasts 5 days
 [PBS] lasts 5 days
-
-
 --Design--
 [especificacao funcionalidades] as [fe] lasts 2 days and starts at [PBS]'s end
-
 --Integration&tests--
 [testar motores] as [tm] lasts 8 days and starts at [fe]'s end
 [testar cameras] as [tc] lasts 8 days and starts at [fe]'s end
@@ -51,19 +47,18 @@ Project starts 2022-2-14
 [realizar tutorial (real)] as [ttrgeral] lasts 13 days and starts at [testar motores]'s end
 [implementar funcionalidades] as [func] lasts 13 days and starts at [testar motores]'s end
 [fazer teste geral] as [tg] lasts 13 days and starts at [testar motores]'s end
-
 --Simulation--
-[fazer simulacao] as [sim] starts 2022-2-14 and ends 2022-3-11
+[fazer simulacao] as [sim] lasts 20 days
 --Conclusion--
 [finalizar relatorio] as [relf] lasts 5 days and starts at [logbook]'s end
 
 
 'completion
-[vd] is 100% complete
+[vd] is 80% complete
 [cr] is 100% complete
-[ga] is 0% complete
-[WBS] is 0% complete
-[PBS] is 0% complete
+[ga] is 100% complete
+[WBS] is 100% complete
+[PBS] is 100% complete
 [fe] is 0% complete
 [tm] is 0% complete
 [tc] is 0% complete
